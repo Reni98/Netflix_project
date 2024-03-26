@@ -1,0 +1,73 @@
+body {
+    width: 100vw;
+    background-image: url(./images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.logo img {
+    width: 200px;
+    margin-left: 100px;
+
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+.login-box {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.689);
+    padding: 60px;
+
+}
+
+.login .form-control {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.607);
+    color: white;
+}
+
+.btn {
+    width: 100%;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.607);
+    /* width: 100vw; */
+    padding: 0px;
+
+
+
+}
+
+footer .footer-box {
+
+    margin-top: 0px;
+    height: 200px;
+    color: rgba(255, 255, 255, 0.731);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+footer .text {
+    padding-top: 20px;
+    margin-left: 220px;
+    color: rgba(255, 255, 255, 0.731);
+}
+
+.dropdown button {
+    width: 200px;
+    margin-left: 220px;
+}
